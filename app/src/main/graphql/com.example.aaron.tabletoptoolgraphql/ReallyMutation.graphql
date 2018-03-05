@@ -1,0 +1,17 @@
+mutation CreateCharacterMutation($name:String!,$class: String, $maxHP: Int,
+  $currentHP:Int, $ac: Int, $xCoordinate: Int!, $yCoordinate: Int! ){
+  createCharacter(
+    name: $name
+    class: $class
+    maxHP: $maxHP
+    currentHP: $currentHP
+    ac: $ac
+    location: {
+      xCoordinate:$xCoordinate
+      yCoordinate:$yCoordinate
+    }
+
+  ){
+    id
+    name
+  }

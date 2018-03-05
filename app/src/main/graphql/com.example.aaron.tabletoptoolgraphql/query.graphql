@@ -1,0 +1,11 @@
+# Try to write your query here
+query allCharacterLocQuery{
+  allCharacters{
+    name
+    location{
+      xCoordinate
+      yCoordinate
+    }
+  }
+}
+

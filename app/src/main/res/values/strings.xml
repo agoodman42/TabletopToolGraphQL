@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TabletopToolGraphQL</string>
+    <string name="action_settings">Settings</string>
+    <string name="waiting_for_name">...Waiting for name</string>
+    <string name="waiting_for_x_coordinate">Waiting for X coordinate</string>
+    <string name="string_waiting_for_x_coordinate">Waiting for X Coordinate</string>
+    <string name="waiting_for_y_coordinate">Waiting for Y coordinate</string>
+    <string name="string_waiting_for_name">Waiting for Name</string>
+    <string name="Char1_name">Character 1 Name</string>
+    <string name="Char1_X_String">Character 1 X location</string>
+    <string name="Char1_Y_String">Character 1 Y Location</string>
+</resources>
